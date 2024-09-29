@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done {
+    color: green;
+}
+
+.not-done {
+    color: red;
+}
+
+.btn-complete {
+    background-color: green;
+    color: white;
+}
+
+.btn-undo {
+    background-color: red;
+    color: white;
+}
+
+.btn {
+
+
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+}
